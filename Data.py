@@ -18,7 +18,16 @@ Made With 💕 By @TeleRoidGroup
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Home", callback_data="home")],
+        [InlineKeyboardButton(text="⭕ Join Channel ⭕", callback_data="t.me/TeleRoidGroup")],
+        [InlineKeyboardButton("🏡 Home", callback_data="home"),
+         InlineKeyboardButton("🗣️ About", callback_data="about")],
+    ]
+    
+    # Home Button
+    help_buttons = [
+        [InlineKeyboardButton(text="⭕ Join Channel ⭕", callback_data="t.me/TeleRoidGroup")],
+        [InlineKeyboardButton("🏡 Home", callback_data="home"),
+         InlineKeyboardButton("🆘 Help", callback_data="help")],
     ]
 
     # Rest Buttons
@@ -28,8 +37,10 @@ Made With 💕 By @TeleRoidGroup
             InlineKeyboardButton("♻ Help", callback_data="help"),
             InlineKeyboardButton("🗣️ About", callback_data="about")
         ],
-        [InlineKeyboardButton("⭕ Channel", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("♂️ Support", url="https://t.me/StarkBotsChat")],
+        [
+            InlineKeyboardButton("⭕ Channel", url="https://t.me/TeleRoidGroup"),
+            InlineKeyboardButton("♂️ Support", url="https://t.me/TeleRoid14")
+        ],
     ]
 
     # Help Message
@@ -45,7 +56,7 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
 
 5) You are good to go. Leave the rest to me.
 
-🌀 **Available Commands For Using Bot** 🌀
+⭕ **Available Commands For Bot** ⭕
 
 /fsub - See current force subscribe chat
 /fsub chat_id/username - Force users to join the particular chat
@@ -60,9 +71,9 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**To Know More About This Bot** 
 
-A telegram force subscribing bot by @TheTeleRoid.
+A Fsub bot Made With ❤ @TheTeleRoid.
 
 🤖 My Name : @TeleRoid_Fsub_Bot
 
@@ -70,7 +81,7 @@ A telegram force subscribing bot by @TheTeleRoid.
 
 💰 Support : [@TeleRoid14](t.me/TeleRoid14) 
 
-📕 Source Code : [Click Here](https://github.com/PredatorHackerzZ)
+♂️ Source Code : [Click Here](https://github.com/PredatorHackerzZ)
 
 🛠 Framework : [Pyrogram](docs.pyrogram.org)
 
@@ -78,5 +89,5 @@ A telegram force subscribing bot by @TheTeleRoid.
 
 👮 Developer : @PredatorHackerzZ
 
-🚸 Powered By : [@HindiWeBNetwork](t.me/MoviesFlixers_DL) 
+🚸 Powered By : [@HindiWebNetwork](t.me/MoviesFlixers_DL) 
     """
