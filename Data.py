@@ -13,23 +13,23 @@ The chat can be a group or channel. It can be private or public.
 
 Use below buttons to learn more !
 
-By @StarkBots
+Made With 💕 By @TeleRoidGroup
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton(text="🏠 Home", callback_data="home")],
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("🤖 BotsList", url="https://t.me/joinchat/t1ko_FOJxhFiOThl")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("♻ Help", callback_data="help"),
+            InlineKeyboardButton("🗣️ About", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("⭕ Channel", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("♂️ Support", url="https://t.me/StarkBotsChat")],
     ]
 
     # Help Message
@@ -45,7 +45,7 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
 
 5) You are good to go. Leave the rest to me.
 
-✨ **Available Commands** ✨
+🌀 **Available Commands For Using Bot** 🌀
 
 /fsub - See current force subscribe chat
 /fsub chat_id/username - Force users to join the particular chat
@@ -62,13 +62,21 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
     ABOUT = """
 **About This Bot** 
 
-A telegram force subscribing bot by @StarkBots
+A telegram force subscribing bot by @TheTeleRoid.
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/ForceSubscribeBot)
+🤖 My Name : @TeleRoid_Fsub_Bot
 
-Framework : [Pyrogram](docs.pyrogram.org)
+🔔 Channel : [@TeleRoidGroup](t.me/TeleRoidGroup) 
 
-Language : [Python](www.python.org)
+💰 Support : [@TeleRoid14](t.me/TeleRoid14) 
 
-Developer : @StarkProgrammer
+📕 Source Code : [Click Here](https://github.com/PredatorHackerzZ)
+
+🛠 Framework : [Pyrogram](docs.pyrogram.org)
+
+🧾 Language : [Python](www.python.org)
+
+👮 Developer : @PredatorHackerzZ
+
+🚸 Powered By : [@HindiWeBNetwork](t.me/MoviesFlixers_DL) 
     """
