@@ -34,13 +34,13 @@ async def main(bot: Client, msg: Message):
                 if action == 'kick':
                     await msg.chat.kick_member(user_id)
                     await msg.chat.unban_member(user_id)
-                    await msg.reply("Kicked member because not joined Force Subscribe Chat")
+                    await msg.reply("Kicked member can't join Force Subscribe Chat")
                     return
                 elif action == 'ban':
                     await msg.chat.kick_member(user_id)
-                    await msg.reply("Banned member because not joined Force Subscribe Chat")
+                    await msg.reply("Banned member Can't join Force Subscribe Chat")
                     return
-                buttons = [[InlineKeyboardButton("✨ Join This Chat ✨", url=link)]]
+                buttons = [[InlineKeyboardButton("🤖 Join The Chat 🤖", url=link)]]
                 if action == 'mute':
                     await msg.chat.restrict_member(user_id, ChatPermissions(can_send_messages=False))
                     buttons.append([InlineKeyboardButton("Unmute Me", callback_data="joined")])
