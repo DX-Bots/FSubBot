@@ -10,5 +10,5 @@ async def about(bot, msg):
         msg.chat.id,
         Data.ABOUT,
         disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup(Data.home_buttons),
+        reply_markup=InlineKeyboardMarkup(Data.help_buttons),
     )
