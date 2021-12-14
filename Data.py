@@ -18,14 +18,14 @@ Made With 💕 By @TeleRoidGroup
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="⭕ Join Channel ⭕", callback_data="t.me/TeleRoidGroup")],
+        [InlineKeyboardButton(text="⭕ Join Channel ⭕", url="t.me/TeleRoidGroup")],
         [InlineKeyboardButton("🏡 Home", callback_data="home"),
          InlineKeyboardButton("🗣️ About", callback_data="about")],
     ]
     
     # Home Button
     help_buttons = [
-        [InlineKeyboardButton(text="⭕ Join Channel ⭕", callback_data="t.me/TeleRoidGroup")],
+        [InlineKeyboardButton(text="⭕ Join Channel ⭕", url="t.me/TeleRoidGroup")],
         [InlineKeyboardButton("🏡 Home", callback_data="home"),
          InlineKeyboardButton("🆘 Help", callback_data="help")],
     ]
