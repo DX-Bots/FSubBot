@@ -32,15 +32,15 @@ Made With 💕 By @TeleRoidGroup
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🤖 BotsList", url="https://t.me/joinchat/t1ko_FOJxhFiOThl")],
         [
             InlineKeyboardButton("♻ Help", callback_data="help"),
             InlineKeyboardButton("🗣️ About", callback_data="about")
         ],
         [
             InlineKeyboardButton("⭕ Channel", url="https://t.me/TeleRoidGroup"),
-            InlineKeyboardButton("♂️ Support", url="https://t.me/TeleRoid14")
+            InlineKeyboardButton("🚸 Support", url="https://t.me/TeleRoid14")
         ],
+        [InlineKeyboardButton("🤖 BotsList", url="https://t.me/joinchat/t1ko_FOJxhFiOThl")],
     ]
 
     # Help Message
@@ -81,7 +81,7 @@ A Fsub bot Made With ❤ @TheTeleRoid.
 
 💰 Support : [@TeleRoid14](t.me/TeleRoid14) 
 
-♂️ Source Code : [Click Here](https://github.com/PredatorHackerzZ)
+⚠ Source Code : [Click Here](https://github.com/PredatorHackerzZ)
 
 🛠 Framework : [Pyrogram](docs.pyrogram.org)
 
